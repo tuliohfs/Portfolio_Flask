@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html, body{
+    font-family: Ubuntu, Arial;
+    width: 100%;
+    height: 100%;
+}
+
+#Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #021124;
+    overflow-y: auto;
+    width: 300px;
+    transition: all ease-in 0.5s;
+    padding: 0 15px;
+    z-index: 9997;
+}
+
+#Header .Profile img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 5px solid #2c2f3f;
+    border-radius: 50%;
+}
+
+#Header .Profile h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+#Header .Profile .social-links a{
+    font-size: 1rem;
+    background: #212431;
+    color: #fff;
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#Header .Profile .social-links a:hover{
+    background: #149ddd;
+}
+
+.Nav-Menu{
+    padding: 1.5rem;
+}
+
+.Nav-Menu a i,
+.Nav-Menu a i:focus,
+.Nav-Menu a i:focus i {
+    font-size: 24px;
+    margin-right: 8px; /* Adjust the margin as needed */
+    color: #6f7180;
+}
+
+.Nav-Menu a,
+.Nav-Menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.Nav-Menu a:hover i,
+.Nav-Menu .active i,
+.Nav-Menu .active:focus i,
+.Nav-Menu li:hover > a i {
+    color: #149ddd;
+}
+
+.Nav-Menu a:hover,
+.Nav-Menu .active,
+.Nav-Menu .active:focus,
+.Nav-Menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#Main {
+    margin-left: 300px;
+}
+
+section#Inicio{
+    background-image: url(./img/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section#Inicio h2{
+    font-size: 6rem;
+}
+
+section#Inicio span#Subtitle{
+    font-size: 1.5rem;
+}
+
+.text-shadow{
+    text-shadow: 4px 4px 10px #000;
+}
+
+section#Inicio div#Arraste a{
+    text-decoration: none;
+    color: #fff;
+}
