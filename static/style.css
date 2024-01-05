@@ -165,3 +165,104 @@ i.menu-mobile{
         margin-left: 0px;
     }
 }
+
+*::-webkit-scrollbar{
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #021124;
+}
+
+section#Sobre {
+    margin-top: 80px;
+    padding: 30px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+section#Sobre h2 {
+    color: #021124;
+}
+
+section#Sobre p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+section#Sobre img {
+    width: 100%;
+    height: 650px; /* Defina a altura desejada */
+    object-fit: cover; /* Manterá a proporção, cortando se necessário */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+section#Sobre h3 {
+    color: #021124;
+    margin-top: 20px;
+}
+
+section#Sobre .list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+section#Sobre .list-group-item span {
+    font-weight: 600;
+}
+
+section#Sobre p:last-child {
+    margin-bottom: 0;
+}
+
+section#Sobre .mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+section#Sobre .row.mb-3:last-child {
+    margin-bottom: 0;
+}
+
+section#Sobre p.additional-info {
+    margin-top: 20px;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Estilo para a parte de "No meu dia a dia..." */
+
+section#Sobre .row.mt-3.mb-3 p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Estilo para os botões de redes sociais */
+
+section#Sobre .social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    section#Sobre .col-md-4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section#Sobre .col-md-8 {
+        text-align: justify;
+    }
+}
