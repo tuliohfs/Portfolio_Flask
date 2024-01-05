@@ -110,7 +110,7 @@ section#Inicio span#Subtitle{
 }
 
 .text-shadow{
-    text-shadow: 1px 1px 10px #a8a9b4;
+    text-shadow: 1px 1px 10px #021124;
 }
 
 section#Inicio div#Arraste a{
@@ -264,5 +264,67 @@ section#Sobre .social-links a {
 
     section#Sobre .col-md-8 {
         text-align: justify;
+    }
+}
+
+/* Existing styles */
+
+section#Habilidades {
+    background-color: #2C2F3F; /* Reverted to the original background color */
+    padding: 60px 0;
+    position: relative;
+    z-index: 1; /* Ensures the content stays above other elements */
+}
+
+section#Habilidades h2 {
+    color: #fff; /* Adjusted text color to white */
+    text-align: center;
+}
+
+section#Habilidades p {
+    font-size: 1.1rem;
+    color: #a8a9b4; /* Adjusted text color to a light gray */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section#Habilidades .row {
+    margin-left: 0; /* Ensures the row does not have extra left margin */
+    margin-right: 0; /* Ensures the row does not have extra right margin */
+}
+
+section#Habilidades .progress {
+    margin-bottom: 20px;
+}
+
+section#Habilidades .progress-bar {
+    background-color: #021124; /* Adjusted progress bar color to a blue tone */
+}
+
+section#Habilidades .col-md-6 {
+    margin-bottom: 40px;
+}
+
+section#Habilidades .mt-3.mb-0 {
+    color: #fff; /* Adjusted text color to white */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Optional: Add animation to progress bars */
+@keyframes progressBarAnimation {
+    from {
+        width: 0;
+    }
+}
+
+section#Habilidades .progress-bar {
+    animation: progressBarAnimation 1s ease-out;
+}
+
+/* Optional: Adjust the position of the section on smaller screens */
+@media (max-width: 768px) {
+    section#Habilidades {
+        padding: 40px 15px;
     }
 }
