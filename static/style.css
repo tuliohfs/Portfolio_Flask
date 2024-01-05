@@ -294,11 +294,12 @@ section#Habilidades .row {
 }
 
 section#Habilidades .progress {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 section#Habilidades .progress-bar {
     background-color: #021124; /* Adjusted progress bar color to a blue tone */
+    border: solid 2px #021124;
 }
 
 section#Habilidades .col-md-6 {
