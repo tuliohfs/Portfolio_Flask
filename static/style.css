@@ -270,20 +270,20 @@ section#Sobre .social-links a {
 /* Existing styles */
 
 section#Habilidades {
-    background-color: #2C2F3F; /* Reverted to the original background color */
+    background-color: #e9f2fd; /* Reverted to the original background color */
     padding: 60px 0;
     position: relative;
     z-index: 1; /* Ensures the content stays above other elements */
 }
 
 section#Habilidades h2 {
-    color: #fff; /* Adjusted text color to white */
+    color: #000; /* Adjusted text color to white */
     text-align: center;
 }
 
 section#Habilidades p {
     font-size: 1.1rem;
-    color: #a8a9b4; /* Adjusted text color to a light gray */
+    color: #645e5e; /* Adjusted text color to a light gray */
     text-align: center;
     margin-bottom: 40px;
 }
@@ -298,8 +298,8 @@ section#Habilidades .progress {
 }
 
 section#Habilidades .progress-bar {
-    background-color: #021124; /* Adjusted progress bar color to a blue tone */
-    border: solid 2px #021124;
+    background-color: #1C2633; /* Adjusted progress bar color to a blue tone */
+    border: solid 2px #1C2633;
 }
 
 section#Habilidades .col-md-6 {
@@ -307,7 +307,7 @@ section#Habilidades .col-md-6 {
 }
 
 section#Habilidades .mt-3.mb-0 {
-    color: #fff; /* Adjusted text color to white */
+    color: #000; /* Adjusted text color to white */
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -340,7 +340,7 @@ section#Habilidades .progress-bar {
 .cv .cv-item{
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #2C2F3F;
+    border-left: 2px solid #1C2633;
     position: relative;
 }
 
@@ -371,4 +371,40 @@ section#Habilidades .progress-bar {
     background: #fff;
     border-radius: 100%;
     left: -9px;
+}
+
+.carousel-item p{
+    text-align: center;
+}
+
+.carousel-item h5{
+    text-align: center;
+}
+
+.carousel-control-prev{
+    margin-left: -8rem;
+  }
+  
+  .carousel-control-next{
+    margin-right: -8rem;
+  }
+  
+  .carousel-indicators{
+    margin-bottom: -35px;
+  }
+
+  #carouselPortfolio .card-img-top {
+    height: 200px; /* Set your desired fixed height for the images */
+    object-fit: cover;
+}
+
+#carouselPortfolio .card-body {
+    height: 100%; /* Ensure the card body takes the full height of the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section#Portfolio{
+    background: #e9f2fd;
 }
